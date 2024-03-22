@@ -39,7 +39,7 @@ The above command assumes that `ambf_simulator` is set as an alias or resides in
 
 
 ## Explanation:
-Please take a look at the [ADF]("./ADF/test.yaml") file to see where the plugins are defined at object level scope. The contents are copied here, please check out the added comments. We have 3 different types of objects in this ADF file, and they all use the same object communication plugin. The plugin in this case looks at the object type and manages the relevant data fields, publishers, and subscribers.
+Please take a look at the `./ADF/test.yaml` file to see where the plugins are defined at object level scope. The contents are copied here, please check out the added comments. We have 3 different types of objects in this ADF file, and they all use the same object communication plugin. The plugin in this case looks at the object type and manages the relevant data fields, publishers, and subscribers.
 
 ```yaml
 bodies:
